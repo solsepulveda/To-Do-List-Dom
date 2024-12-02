@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: soft;
+}
+
+body {
+  height: 100vh;
+  min-heigh: 100vh;
+  position: relative;
+  font-family: sans-serif;
+  background-color: #ffffff;
+}
+
+
+.input {
+  border-style: none;
+  border-radius: 25px;
+  outline: none;
+  padding-left: 5px;
+  margin: 5px;
+  font-size: 15px;
+  height: 35px;
+  width: 300px
+}
+
+.input::placeholder {
+  color: #beb1d2;
+  border-style: none;
+  padding-left: 5px;
+  justify-content: center;
+}
+
+p {
+  margin: 5px;
+  color: black
+}
+
+label {
+  color: #8359e3;
+
+}
+
+.close {
+  cursor: pointer;
+  width: 12px;
+}
+
+.check {
+  width: 15px;
+}
+
+.task-container {
+  width: 300px;
+  height: 35px;
+  background-color: #f6f5ff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: collum;
+  margin: 5px;
+  justify-content: space-between;
+  padding: 0 10px;
+  align-items: center;
+
+}
+
+.container {
+  display: flex;
+  position: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 60px 0;
+}
+
+h1 {
+  margin: 20px 0;
+  font-size: 40px;
+}
+
+footer {
+  display: flex;
+  bottom: 0;
+  background-color: #d8c7ff;
+  width: 100%;
+  position: absolute;
+  position: fixed;
+  height: 30px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+footer p {
+  color: white;
+}
